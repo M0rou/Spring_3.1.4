@@ -63,7 +63,7 @@ public class Main {
         user.setName("James");
         user.setLastName("Brown");
         user.setAge((byte) 60);
-        
+
         System.out.println("\n");
         System.out.println(app.postUsers(user).getBody()
                 + app.putUsers(user)
